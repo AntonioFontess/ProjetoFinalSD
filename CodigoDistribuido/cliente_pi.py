@@ -12,7 +12,7 @@ def calcularPontosNoCirculo(pontosASimular):
     for _ in range(pontosASimular):
         x = random.random() # posicao aleatoria de 0 a 1 no eixo x
         y = random.random() # posicao aleatoria de 0 a 1 no eixo y
-        if (x**2 + y**2) <= 1: # se a distância ao quadrado do ponto até o centro for menor ou igual ao raio de 1 do circulo ele assume que esta dentro do circulo
+        if (x*x + y*y) <= 1: # se a distância ao quadrado do ponto até o centro for menor ou igual ao raio de 1 do circulo ele assume que esta dentro do circulo
             pontosNoCirculo += 1
     return pontosNoCirculo
 

@@ -6,7 +6,7 @@ from thread_servidor import ThreadServidor
 HOST = '0.0.0.0'
 PORT = 50000
 totalPontos = 10_000_000
-numClientes = 4
+numClientes = 4 # "Threads"
 
 def main():
     resultadosParciais = []

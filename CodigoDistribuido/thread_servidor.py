@@ -15,7 +15,7 @@ class ThreadServidor(threading.Thread):
     def run(self): # Método executado em paralelo em cada "thread.start()"
         with self._conexao:
             try:
-                self._conexao.sendall(str(self._pontosParaSimular).encode('utf-8')) # Envia a tarefa para o cliente
+                self._conexao.sendall(str(self._pontosParaSimular).encode('utf-8')) # Envia a tarefa para o cliente/thread
                 
                 resultadoBytes = self._conexao.recv(1024)  # Recebe o resultado do cliente
                 pontosNoCirculo = int(resultadoBytes.decode('utf-8')) # Decodifica o resultado de bytes para int
