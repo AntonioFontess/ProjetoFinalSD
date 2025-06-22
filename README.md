@@ -30,7 +30,7 @@ ProjetoFinalSD/
 │   └── codigo_paralelo.py
 ├── distribuida/         # Implementação distribuída com sockets
 │   ├── servidor.py
-    ├── thread_servidor.py
+│   ├── thread_servidor.py
 │   └── cliente.py
 ├── README.md            # Este arquivo
 └── relatorio/           # Relatório do projeto (PDF)
