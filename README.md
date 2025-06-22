@@ -1,4 +1,4 @@
-# Cálculo de Pi pelo Método de Monte Carlo - Projeto de Sistemas Distribuídos
+# Cálculo de Pi pelo Método de Monte Carlo - Trabalho Final de Sistemas Distribuídos
 
 ## Descrição
 
