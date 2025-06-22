@@ -18,7 +18,7 @@ A lógica se baseia em simular pontos aleatórios dentro de um quadrado que cont
 
 Quanto maior o número de pontos, mais precisa será a estimativa, conforme a **Lei dos Grandes Números**.
 
-![MonteCarlo](ProjetoFinalSD/imagens/montecarlo_grafico.png)
+![MonteCarlo](imagens/montecarlo_grafico.png)
 
 ## Estrutura do Projeto
 
