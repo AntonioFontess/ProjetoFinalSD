@@ -49,14 +49,14 @@ ProjetoFinalSD/
 
 ```bash
 cd sequencial
-python pi_sequencial.py
+python codigo_sequencial.py.py
 ```
 
 #### Paralela
 
 ```bash
 cd paralela
-python pi_paralelo.py
+python codigo_paralelo.py
 ```
 
 #### Distribuída
@@ -82,6 +82,12 @@ python cliente.py
 | 1.000.000     | 3,1421880  | 3,1411920| 3,1419240    |
 | 5.000.000     | 3,1407592  | 3,1417912| 3,1418696    |
 | 10.000.000    | 3,1427664  | 3,1423972| 3,1413876    |
+
+## Apresentação em Vídeo
+
+Para uma demonstração do projeto e a explicação do seu funcionamento, assista à nossa apresentação em vídeo.
+
+**[Assistir à apresentação no Google Drive](https://drive.google.com/drive/folders/1kveuLLAwwzj_b4YPcV9vGgfxCBfTvntj)**
 
 ## Ambiente de Teste
 
