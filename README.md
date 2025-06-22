@@ -49,7 +49,7 @@ ProjetoFinalSD/
 
 ```bash
 cd sequencial
-python codigo_sequencial.py.py
+python codigo_sequencial.py
 ```
 
 #### Paralela
